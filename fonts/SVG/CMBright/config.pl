@@ -156,16 +156,16 @@ $fontdir = "CMBright";
 );
 
 %IDS = (
-  "MathJax_AMS"         => "MJAMS",
-  "MathJax_Caligraphic" => "MJCAL",
-  "MathJax_Fraktur"     => "MJFRAK",
-  "MathJax_Main"        => "MJMAIN",
-  "MathJax_Math"        => "MJMATH",
-  "MathJax_SansSerif"   => "MJSS",
-  "MathJax_Script"      => "MJSCR",
-  "MathJax_Size1"       => "MJSZ1",
-  "MathJax_Size2"       => "MJSZ2",
-  "MathJax_Size3"       => "MJSZ3",
-  "MathJax_Size4"       => "MJSZ4",
-  "MathJax_Typewriter"  => "MJTT",
+  $prefix."AMS"         => "MJAMS",
+  $prefix."Caligraphic" => "MJCAL",
+  $prefix."Fraktur"     => "MJFRAK",
+  $prefix."Main"        => "MJMAIN",
+  $prefix."Math"        => "MJMATH",
+  $prefix."SansSerif"   => "MJSS",
+  $prefix."Script"      => "MJSCR",
+  $prefix."Size1"       => "MJSZ1",
+  $prefix."Size2"       => "MJSZ2",
+  $prefix."Size3"       => "MJSZ3",
+  $prefix."Size4"       => "MJSZ4",
+  $prefix."Typewriter"  => "MJTT",
 );
