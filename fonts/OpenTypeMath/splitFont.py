@@ -776,7 +776,7 @@ for i in range(0,len(fontList)):
         # No need for namespaces={'s': 'http://www.w3.org/2000/svg'},
         # as Font Forge does not attach any xmlns namespace to the <svg> root
         glyphNode = SVGdoc.\
-            xpath('/svg/defs/font/glyph[@glyph-name="%s"]' % glyph.glyphname)
+            xpath('/s:svg/s:defs/s:font/s:glyph[@glyph-name="%s"]' % glyph.glyphname, namespaces={'s': 'http://www.w3.org/2000/svg'})
         if len(glyphNode) == 0:
             print(glyph.glyphname)
             raise BaseException("Unable to find the glyph")
