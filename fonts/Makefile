@@ -21,6 +21,7 @@ all: otf afm svg img ams tables
 
 otf:
 	$(MAKE) -C OTF/TeX all
+	$(MAKE) -C OTF/CMBright all
 
 afm:
 	$(MAKE) -C AFM/TeX all
@@ -41,6 +42,7 @@ tables:
 
 clean:
 	$(MAKE) -C OTF/TeX clean
+	$(MAKE) -C OTF/CMBright clean
 	$(MAKE) -C AFM/TeX clean
 	$(MAKE) -C AFM/STIX-1.1 clean
 	$(MAKE) -C SVG/TeX clean
