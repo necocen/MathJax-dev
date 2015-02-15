@@ -32,7 +32,7 @@ $(FONTNAME):
 	cp -r $$FONTDIR/svg svg; \
 	cp -r $$FONTDIR/ttf ttf; \
 	cp -r $$FONTDIR/woff woff;
-	@echo "Creating Character Table for MathJax CMB fonts..."
+	@echo "Creating Character Table for MathJax $(FONTNAME) fonts..."
 	@$(PERL) makeTable
 
 clean:
