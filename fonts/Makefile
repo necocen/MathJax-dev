@@ -26,6 +26,7 @@ otf:
 afm:
 	$(MAKE) -C AFM/TeX all
 	$(MAKE) -C AFM/STIX-1.1 all
+	$(MAKE) -C AFM/CMBright all
 
 svg:
 	$(MAKE) -C SVG/TeX all
@@ -45,6 +46,7 @@ clean:
 	$(MAKE) -C OTF/CMBright clean
 	$(MAKE) -C AFM/TeX clean
 	$(MAKE) -C AFM/STIX-1.1 clean
+	$(MAKE) -C AFM/CMBright clean
 	$(MAKE) -C SVG/TeX clean
 	$(MAKE) -C IMG/TeX clean
 	$(MAKE) -C AMS clean
