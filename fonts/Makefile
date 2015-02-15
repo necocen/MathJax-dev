@@ -42,6 +42,7 @@ ams:
 tables:
 	$(MAKE) -C Tables/STIX-1.1 all
 	$(MAKE) -C Tables/TeX all
+	$(MAKE) -C Tables/CMBright all
 
 clean:
 	$(MAKE) -C OTF/TeX clean
@@ -56,3 +57,4 @@ clean:
 	$(MAKE) -C AMS clean
 	$(MAKE) -C Tables/STIX-1.1 clean
 	$(MAKE) -C Tables/TeX clean
+	$(MAKE) -C Tables/CMBright clean
