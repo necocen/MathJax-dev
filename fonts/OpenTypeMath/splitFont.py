@@ -84,7 +84,7 @@ subprocess.call("mkdir -p %s/ttf %s/otf %s/svg"  %
                 (FONTFAMILY, FONTFAMILY, FONTFAMILY),
                 shell=True)
 if not(args.skipMainFonts):
-    subprocess.call("rm -f %s/ttf/* %s/otf/* %s/svg/*" %
+    subprocess.call("rm -f %s/ttf/* %s/otf/* %s/svg/*.svg" %
                     (FONTFAMILY, FONTFAMILY, FONTFAMILY),
                     shell=True)
 
