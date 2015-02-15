@@ -34,6 +34,7 @@ svg:
 
 img:
 	$(MAKE) -C IMG/TeX all
+	$(MAKE) -C IMG/CMBright all
 
 ams:
 	$(MAKE) -C AMS all
@@ -51,6 +52,7 @@ clean:
 	$(MAKE) -C SVG/TeX clean
 	$(MAKE) -C SVG/CMBright clean
 	$(MAKE) -C IMG/TeX clean
+	$(MAKE) -C IMG/CMBright clean
 	$(MAKE) -C AMS clean
 	$(MAKE) -C Tables/STIX-1.1 clean
 	$(MAKE) -C Tables/TeX clean
