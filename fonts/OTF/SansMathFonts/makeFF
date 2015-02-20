@@ -50,7 +50,7 @@ $map{cmss10} = {
     0x3D => 0x3D,           # =
     [0x3F,0x40] => 0x3F,    # ?, @
     [0x41,0x48] => 0x41,    # A-H
-    [0x50,0x5A] => 0x50,    # J-Z
+    [0x4A,0x5A] => 0x4A,    # J-Z
     0x5B => 0x5B,           # [
     0x5C => 0x201C,         # ``
     [0x5D,0x5E] => 0x5D,    # ], ^
@@ -109,7 +109,7 @@ $map{cmss10} = {
     [0x3F,0x40] => 0x3F,    # ?, @
 #    [0x41,0x5A] => 0x41,    # A-Z
     [0x41,0x48] => 0x41,    # A-H
-    [0x50,0x5A] => 0x50,    # J-Z
+    [0x4A,0x5A] => 0x4A,    # J-Z
     0x5B => 0x5B,           # [
     0x5C => 0x201C,         # ``
     [0x5D,0x5E] => 0x5D,    # ], ^
@@ -173,7 +173,7 @@ $map{cmssmi10} = {
 
 #    [0x41,0x5A] => 0x41,    # A-Z
     [0x41,0x48] => 0x41,    # A-H
-    [0x50,0x5A] => 0x50,    # J-Z
+    [0x4A,0x5A] => 0x4A,    # J-Z
     [0x61,0x7A] => 0x61,    # a - z
     0x6F => 0x3BF,          # omicron
   ],
@@ -204,7 +204,7 @@ $map{cmssmi10} = {
 
     [0x41,0x5A] => 0x41,    # A-Z
 #    [0x41,0x48] => 0x41,    # A-H
-#    [0x50,0x5A] => 0x50,    # J-Z
+#    [0x4A,0x5A] => 0x4A,    # J-Z
     [0x61,0x7A] => 0x61,    # a - z
     0x6F => 0x3BF,          # omicron
   ],
@@ -705,7 +705,7 @@ $map{cmssi10} = {
     [0x3F,0x40] => 0x3F,    # ?, @
 #    [0x41,0x5A] => 0x41,    # A-Z
     [0x41,0x48] => 0x41,    # A-H
-    [0x50,0x5A] => 0x50,    # J-Z
+    [0x4A,0x5A] => 0x4A,    # J-Z
     0x5B => 0x5B,           # [
     0x5C => 0x201C,         # ``
     [0x5D,0x5E] => 0x5D,    # ], ^
@@ -753,7 +753,7 @@ $map{cmssi10} = {
     [0x3F,0x40] => 0x3F,    # ?, @
 #    [0x41,0x5A] => 0x41,    # A-Z
     [0x41,0x48] => 0x41,    # A-H
-    [0x50,0x5A] => 0x50,    # J-Z
+    [0x4A,0x5A] => 0x4A,    # J-Z
     0x5B => 0x5B,           # [
     0x5C => 0x201C,         # ``
     [0x5D,0x5E] => 0x5D,    # ], ^
@@ -811,7 +811,7 @@ $map{cmssbx10} = {
     [0x3F,0x40] => 0x3F,    # ?, @
 #    [0x41,0x5A] => 0x41,    # A-Z
     [0x41,0x48] => 0x41,    # A-H
-    [0x50,0x5A] => 0x50,    # J-Z
+    [0x4A,0x5A] => 0x4A,    # J-Z
     0x5B => 0x5B,           # [
     0x5C => 0x201C,         # ``
     [0x5D,0x5E] => 0x5D,    # ], ^
@@ -870,7 +870,7 @@ $map{cmssbx10} = {
     [0x3F,0x40] => 0x3F,    # ?, @
 #    [0x41,0x5A] => 0x41,    # A-Z
     [0x41,0x48] => 0x41,    # A-H
-    [0x50,0x5A] => 0x50,    # J-Z
+    [0x4A,0x5A] => 0x4A,    # J-Z
     0x5B => 0x5B,           # [
     0x5C => 0x201C,         # ``
     [0x5D,0x5E] => 0x5D,    # ], ^
@@ -934,7 +934,7 @@ $map{cmssmib10} = {
 
     [0x41,0x5A] => 0x41,    # A-Z
 #    [0x41,0x48] => 0x41,    # A-H
-#    [0x50,0x5A] => 0x50,    # J-Z
+#    [0x4A,0x5A] => 0x4A,    # J-Z
     [0x61,0x7A] => 0x61,    # a - z
     0x6F => 0x3BF,          # omicron
   ],
@@ -1774,7 +1774,7 @@ $extra{'Main-Regular'} = {
     'Select(0u2192)','Copy()',
     'Select(0u21A6)','Paste()',
     'Generate("otf/'.$fontname.'_Main-Regular.otf")',
-    'Open("pfa/cmbrsy10.pfa")',
+    'Open("pfa/cmsssy10.pfa")',
     'Select(0x37)','Copy()',
     'Open("otf/'.$fontname.'_Main-Regular.otf")',
     'Select(0u21A6)',
@@ -1786,7 +1786,7 @@ $extra{'Main-Regular'} = {
     'Select(0u27F6)','Copy()',
     'Select(0u27FC)','Paste()',
     'Generate("otf/'.$fontname.'_Main-Regular.otf")',
-    'Open("pfa/cmbrsy10.pfa")',
+    'Open("pfa/cmsssy10.pfa")',
     'Select(0x37)','Copy()',
     'Open("otf/'.$fontname.'_Main-Regular.otf")',
     'Select(0u27FC)',
@@ -1798,7 +1798,7 @@ $extra{'Main-Regular'} = {
     'Select(0u2190)','Copy()',
     'Select(0u21A9)','Paste()',
     'Generate("otf/'.$fontname.'_Main-Regular.otf")',
-    'Open("pfa/cmbrmi10.pfa")',
+    'Open("pfa/cmssmi10.pfa")',
     'Select(0x2D)','Copy()',
     'Open("otf/'.$fontname.'_Main-Regular.otf")',
     'Select(0u21A9)',
@@ -1809,7 +1809,7 @@ $extra{'Main-Regular'} = {
 
   hookrightarrow => [
     'Generate("otf/'.$fontname.'_Main-Regular.otf")',
-    'Open("pfa/cmbrmi10.pfa")',
+    'Open("pfa/cmssmi10.pfa")',
     'Select(0x2C)','Copy()',
     'Open("otf/'.$fontname.'_Main-Regular.otf")',
     'Select(0u21AA)','Paste()',
@@ -2100,7 +2100,7 @@ $extra{'Main-Bold'} = {
     'Select(0u2192)','Copy()',
     'Select(0u21A6)','Paste()',
     'Generate("otf/'.$fontname.'_Main-Bold.otf")',
-    'Open("pfa/cmbsy10.pfa")',
+    'Open("pfa/cmssbsy10.pfa")',
     'Select(0x37)','Copy()',
     'Open("otf/'.$fontname.'_Main-Bold.otf")',
     'Select(0u21A6)',
@@ -2112,7 +2112,7 @@ $extra{'Main-Bold'} = {
     'Select(0u27F6)','Copy()',
     'Select(0u27FC)','Paste()',
     'Generate("otf/'.$fontname.'_Main-Bold.otf")',
-    'Open("pfa/cmbsy10.pfa")',
+    'Open("pfa/cmssbsy10.pfa")',
     'Select(0x37)','Copy()',
     'Open("otf/'.$fontname.'_Main-Bold.otf")',
     'Select(0u27FC)',
@@ -2124,7 +2124,7 @@ $extra{'Main-Bold'} = {
     'Select(0u2190)','Copy()',
     'Select(0u21A9)','Paste()',
     'Generate("otf/'.$fontname.'_Main-Bold.otf")',
-    'Open("pfa/cmbrmb10.pfa")',
+    'Open("pfa/cmssmib10.pfa")',
     'Select(0x2D)','Copy()',
     'Open("otf/'.$fontname.'_Main-Bold.otf")',
     'Select(0u21A9)',
@@ -2135,7 +2135,7 @@ $extra{'Main-Bold'} = {
 
   hookrightarrow => [
     'Generate("otf/'.$fontname.'_Main-Bold.otf")',
-    'Open("pfa/cmbrmb10.pfa")',
+    'Open("pfa/cmssmib10.pfa")',
     'Select(0x2C)','Copy()',
     'Open("otf/'.$fontname.'_Main-Bold.otf")',
     'Select(0u21AA)','Paste()',
