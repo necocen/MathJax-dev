@@ -26,7 +26,7 @@ all: fonts install
 
 blacker: $(MFTRACE_MODIFIED)
 $(MFTRACE_MODIFIED):
-	$(PERL) makeBlacker 5 # values between 10 and 30 seem best
+	$(PERL) makeBlacker 1 # values between 10 and 30 seem best
 
 pfa: $(MFTRACE_MODIFIED)
 	@echo "cmss10" # Roman
